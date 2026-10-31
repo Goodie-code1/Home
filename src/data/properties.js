@@ -1,0 +1,200 @@
+
+const properties = [
+  {
+    id: '01',
+    name: '4-Bedroom Detached Duplex',
+    location: 'Lekki Phase 1, Lagos',
+    type: 'Detached House',
+    price: '₦185,000,000',
+    status: 'For Sale',
+    bedrooms: 4,
+    bathrooms: 5,
+    area: '420 sqm',
+    hotDeal: true,
+    description:
+      'A contemporary family home with spacious living areas, modern interiors and a private outdoor space.',
+    features: [
+      'Fitted kitchen',
+      'Private parking',
+      'En-suite bedrooms',
+      'Spacious living area',
+      '24-hour security',
+      'Private garden',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1757359056339-22968344cce6?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1721134111286-b3c4a5772ea9?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1671197244266-73129c97c096?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1757524579381-4f0543ef0d63?auto=format&fit=crop&w=1400&q=85',
+    ],
+  },
+
+  {
+    id: '02',
+    name: '3-Bedroom Luxury Apartment',
+    location: 'Ikoyi, Lagos',
+    type: 'Apartment',
+    price: '₦12,000,000 / year',
+    status: 'For Rent',
+    bedrooms: 3,
+    bathrooms: 4,
+    area: '280 sqm',
+    hotDeal: true,
+    description:
+      'A well-designed apartment with comfortable interiors and convenient residential facilities.',
+    features: [
+      'Fitted kitchen',
+      'Swimming pool',
+      'Dedicated parking',
+      'En-suite bedrooms',
+      'Security',
+    ],
+    images: [
+  'https://app-ei-live.ams3.cdn.digitaloceanspaces.com/property/images/2022/11/a840db84600e928b30b8d791b4a11069.jpeg',
+  'https://images.unsplash.com/photo-1721396185451-ff45e7440c30?auto=format&fit=crop&w=1400&q=85',
+  'https://images.unsplash.com/photo-1721614665022-e9895a3dfa26?auto=format&fit=crop&w=1400&q=85',
+  'https://images.unsplash.com/photo-1595526051245-4506e0005bd0?auto=format&fit=crop&w=1400&q=85',
+],
+  },
+
+  {
+    id: '03',
+    name: '5-Bedroom Detached Duplex',
+    location: 'Maitama, Abuja',
+    type: 'Detached House',
+    price: '₦240,000,000',
+    status: 'For Sale',
+    bedrooms: 5,
+    bathrooms: 6,
+    area: '510 sqm',
+    hotDeal: false,
+    description:
+      'A spacious modern home with generous living areas and quality interior finishes.',
+    features: [
+      'Modern kitchen',
+      'Private garden',
+      'Multiple parking spaces',
+      'En-suite bedrooms',
+      'Security',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1710883734889-5a0b8ab6bfcf?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1630699144035-c0f6311ec482?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1722604675999-b8e6d2cdda08?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1653974123177-fe9c05fb79e6?auto=format&fit=crop&w=1400&q=85',
+    ],
+  },
+
+  {
+    id: '04',
+    name: '4-Bedroom Semi-Detached Duplex',
+    location: 'Ajah, Lagos',
+    type: 'Semi-Detached House',
+    price: '₦95,000,000',
+    status: 'For Sale',
+    bedrooms: 4,
+    bathrooms: 4,
+    area: '350 sqm',
+    hotDeal: true,
+    description:
+      'A modern family property with practical living spaces and a comfortable residential setting.',
+    features: [
+      'Fitted kitchen',
+      'Balcony',
+      'Parking',
+      'Security',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1768348256583-129b0cc812c2?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1776482128012-a47f853abd57?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1722247478643-6178e69f6890?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1760072513376-67a46aab0fd1?auto=format&fit=crop&w=1400&q=85',
+    ],
+  },
+
+  {
+    id: '05',
+    name: '4-Bedroom Detached Duplex',
+    location: 'Gwarinpa, Abuja',
+    type: 'Detached House',
+    price: '₦110,000,000',
+    status: 'For Sale',
+    bedrooms: 4,
+    bathrooms: 5,
+    area: '390 sqm',
+    hotDeal: true,
+    description:
+      'A contemporary family home with open living spaces and practical everyday features.',
+    features: [
+      'Fitted kitchen',
+      'Private parking',
+      'En-suite bedrooms',
+      'Outdoor space',
+      'Security',
+    ],
+    images: [
+      'https://high-endprojecten.be/uploads/album_images/28ff004ec15f3f746c54e01c3a5973e1.jpg',
+      'https://images.unsplash.com/photo-1776482128074-960564637e76?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1772567733061-f7b44c0587b0?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1765862835319-18fb6f8caff6?auto=format&fit=crop&w=1400&q=85',
+    ],
+  },
+
+  {
+    id: '06',
+    name: '3-Bedroom Residential Apartment',
+    location: 'GRA, Port Harcourt',
+    type: 'Apartment',
+    price: '₦8,500,000 / year',
+    status: 'For Rent',
+    bedrooms: 3,
+    bathrooms: 3,
+    area: '240 sqm',
+    hotDeal: false,
+    description:
+      'A comfortable apartment with spacious rooms and convenient access to everyday facilities.',
+    features: [
+      'Fitted kitchen',
+      'Parking space',
+      'En-suite bedrooms',
+      'Balcony',
+      'Security',
+    ],
+    images: [
+  'https://www.superiteafrica.com/uploads/property/1729324731IMG_9604.JPG',
+  'https://images.unsplash.com/photo-1769063238167-d00e112147c0?auto=format&fit=crop&w=1400&q=85',
+  'https://images.unsplash.com/photo-1771372125074-5c7c4332095f?auto=format&fit=crop&w=1400&q=85',
+  'https://images.unsplash.com/photo-1765279333918-949ddcb655ba?auto=format&fit=crop&w=1400&q=85',
+],
+  },
+
+  {
+    id: '07',
+    name: '4-Bedroom Detached Bungalow',
+    location: 'Akobo, Ibadan',
+    type: 'Detached House',
+    price: '₦78,000,000',
+    status: 'For Sale',
+    bedrooms: 4,
+    bathrooms: 4,
+    area: '450 sqm',
+    hotDeal: false,
+    description:
+      'A spacious single-storey home with functional interiors and a private compound.',
+    features: [
+      'Fitted kitchen',
+      'Spacious compound',
+      'Private parking',
+      'En-suite bedrooms',
+      'Security',
+    ],
+    images: [
+      'https://static.wixstatic.com/media/e838ac_58d73a963afa4b6592fbdecb33166f87~mv2.png/v1/fill/w_842%2Ch_608%2Cal_c%2Clg_1%2Cq_90/e838ac_58d73a963afa4b6592fbdecb33166f87~mv2.png',
+      'https://images.unsplash.com/photo-1769063238167-d00e112147c0?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1773579305267-8d75e0af5be4?auto=format&fit=crop&w=1400&q=85',
+      'https://images.unsplash.com/photo-1775241186452-c3d99b09f223?auto=format&fit=crop&w=1400&q=85',
+    ],
+  },
+]
+
+export default properties
